@@ -11,7 +11,7 @@ body {
   place-items: center;
   background: #0b0616;
   padding-top: 80px;  
-}
+} 
 
  
 .nav-wrapper {
@@ -112,3 +112,4 @@ body {
   color: white;
   transform: scale(1.15);
 }
+
