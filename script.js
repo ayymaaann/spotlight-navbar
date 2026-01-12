@@ -8,7 +8,7 @@ function moveSpotlight(target) {
   const iconRect = target.getBoundingClientRect();
   const navRect = nav.getBoundingClientRect();
 
-  const centerX =
+  const centerX = 
     iconRect.left -
     navRect.left +
     iconRect.width / 2 -
@@ -27,3 +27,4 @@ items.forEach(item => {
 
  
 moveSpotlight(document.querySelector(".nav-item.active"));
+
